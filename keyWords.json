@@ -1,0 +1,20 @@
+{
+    "Tithing/Fast Offerings": "tithingFastOfferings.json",
+    "Investments": "investments.json",
+    "Charity": "charity.json",
+    "Groceries": "groceries.json",
+    "Eating Out": "eatingOut.json",
+    "Rent": "rent.json",
+    "Internet": "internet.json",
+    "Phone": "phone.json",
+    "Car expenses": "carExpensesInsurance.json",
+    "Gas": "gas.json",
+    "Clothing": "clothing.json",
+    "Fun": "fun.json",
+    "Necessary Other": "necessaryOther.json",
+    "Unnecessary Other": "unnecessaryOther.json",
+    "Krista's $$": "krista.json",
+    "Garrett's $$": "garrett.json",
+    "Vacation Fund": "vacation.json",
+    "Anual Expenses": "anualExpenses.json"
+}

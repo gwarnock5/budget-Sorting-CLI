@@ -110,8 +110,9 @@ def main(location, month=None):
         spread_sheet_ids = read_json_to_dict('../apiKeys/budgetSpreadSheetIds.json')
 
         temp_data_range = 'tempData!A1:L50'
-        results_data_range = 'results!A1:L20'
-        failures_data_range = 'failures!A1:L20'
+        # Update when adding new category
+        results_data_range = 'results!A1:L23'
+        failures_data_range = 'failures!A1:L23'
 
 
         current_data = googlesheets.read_csv_to_list(service, spread_sheet_ids["temp_data_spreadsheet_id"], 
@@ -136,17 +137,20 @@ def main(location, month=None):
 
         spread_sheet_ids = read_json_to_dict('../apiKeys/budgetSpreadSheetIds.json')
 
-        results_data_range = 'results!A1:L20'
+        # Update when adding new category
+        results_data_range = 'results!A1:L23'
         results_data = googlesheets.read_csv_to_list(service, spread_sheet_ids['results_spreadsheet_id'],
                                                      results_data_range)
 
-        monthly_read_data_range = f"{month}!A1:R20"
+        # Update when adding new category
+        monthly_read_data_range = f"{month}!A1:R23"
         budget_data = googlesheets.read_csv_to_list(service, spread_sheet_ids['budget_spreadsheet_id'],
                                                     monthly_read_data_range)
 
 
         string_data_to_write = []
-        for i in range(20):
+        # Update when adding new category
+        for i in range(23):
             temp_list = []
             if budget_data[i][0] == '':
                 continue

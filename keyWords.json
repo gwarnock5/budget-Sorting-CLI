@@ -14,7 +14,10 @@
     "Necessary Other": "necessaryOther.json",
     "Unnecessary Other": "unnecessaryOther.json",
     "Krista's $$": "krista.json",
+    "Krista's Hobbies": "krista_hobbies.json",
     "Garrett's $$": "garrett.json",
+    "Garrett's Hobbies": "garrett_hobbies.json",
+    "Home Decorating": "home_decorating.json",
     "Vacation Fund": "vacation.json",
     "Anual Expenses": "anualExpenses.json"
 }
